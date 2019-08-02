@@ -3,4 +3,4 @@
 
 The Hikari Jekyll theme modified which makes it dark and less personal. It's the theme we made / modified for [our blog](https://blog.oojmed.com).
 
-[The original version can be found here].(https://github.com/mx3m/hikari-for-jekyll)
+[The original version can be found here](https://github.com/mx3m/hikari-for-jekyll).
