@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+      <title>{{ site.name }} - {{ site.description }}</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta http-equiv="content-language" content="en-gb" />
+      <meta name="description" content="{{ site.description }}">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <link href="//fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700|Roboto:400,700,400italic" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" type="text/css" href="{{ site.baseurl| split: '/' | join:'/' }}/css/main.css" />
+      <link href="atom.xml" type="application/atom+xml" rel="alternate" title="Site ATOM Feed">
+
+      <link rel="shortcut icon" href="https://blog.oojmed.com/favicons/favicon.ico">
+    	<link rel="icon" sizes="16x16 32x32 64x64" href="https://blog.oojmed.com/favicons/favicon.ico">
+    	<link rel="icon" type="image/png" sizes="196x196" href="https://blog.oojmed.com/favicons/favicon-192.png">
+    	<link rel="icon" type="image/png" sizes="160x160" href="https://blog.oojmed.com/favicons/favicon-160.png">
+    	<link rel="icon" type="image/png" sizes="96x96" href="https://blog.oojmed.com/favicons/favicon-96.png">
+    	<link rel="icon" type="image/png" sizes="64x64" href="https://blog.oojmed.com/favicons/favicon-64.png">
+    	<link rel="icon" type="image/png" sizes="32x32" href="https://blog.oojmed.com/favicons/favicon-32.png">
+    	<link rel="icon" type="image/png" sizes="16x16" href="https://blog.oojmed.com/favicons/favicon-16.png">
+    	<link rel="apple-touch-icon" href="https://blog.oojmed.com/favicons/favicon-57.png">
+    	<link rel="apple-touch-icon" sizes="114x114" href="https://blog.oojmed.com/favicons/favicon-114.png">
+    	<link rel="apple-touch-icon" sizes="72x72" href="https://blog.oojmed.com/favicons/favicon-72.png">
+    	<link rel="apple-touch-icon" sizes="144x144" href="https://blog.oojmed.com/favicons/favicon-144.png">
+    	<link rel="apple-touch-icon" sizes="60x60" href="https://blog.oojmed.com/favicons/favicon-60.png">
+    	<link rel="apple-touch-icon" sizes="120x120" href="https://blog.oojmed.com/favicons/favicon-120.png">
+    	<link rel="apple-touch-icon" sizes="76x76" href="https://blog.oojmed.com/favicons/favicon-76.png">
+    	<link rel="apple-touch-icon" sizes="152x152" href="https://blog.oojmed.com/favicons/favicon-152.png">
+    	<link rel="apple-touch-icon" sizes="180x180" href="https://blog.oojmed.com/favicons/favicon-180.png">
+    	<meta name="msapplication-TileColor" content="#FFFFFF">
+    	<meta name="msapplication-TileImage" content="https://blog.oojmed.com/favicons/favicon-144.png">
+    	<meta name="msapplication-config" content="https://blog.oojmed.com/favicons/browserconfig.xml">
+  </head>
+
+  <body>
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="off-canvas">
+      <figure class="avatar">
+        <img src="{{ site.baseurl }}/assets/img/avatar.jpg" alt="Picture" title="That's me, {{ site.author }}.">
+      </figure>
+      <div class="bio">
+          <h1>{{ site.author }} Blog</h1>
+          <p>{{ site.author-bio }}</p>
+      </div>
+      <nav>
+        <h6>Follow us on</h6>
+        <ul>
+          {% if site.twitter %}
+          <li><a target="_blank" href="https://twitter.com/{{ site.twitter }}">Twitter</a></li>
+          {% endif %}
+          {% if site.github %}
+          <li><a target="_blank" href="https://github.com/{{ site.github }}">Github</a></li>
+          {% endif %}
+          {% if site.dribbble %}
+          <li><a target="_blank" href="https://dribbble.com/{{ site.dribbble }}">Dribbble</a></li>
+          {% endif %}
+          {% if site.instagram %}
+          <li><a target="_blank" href="https://instagram.com/{{ site.instagram }}">Instagram</a></li>
+          {% endif %}
+        </ul>
+      </nav>
+    </div>
+
+
+    <div class="site-wrapper">
+
+      <header>
+        <div class="h-wrap">
+          <h1 class="title"><a href="{{ site.baseurl | split:'/' | join:'/' | append:'/'  }}" title="Back to Homepage">{{ site.name }}</a></h1>
+          <a class="menu-icon" title="Open Bio"><span class="lines"></span></a>
+        </div>
+      </header>
+
+      <main>
+        {{ content }}
+      </main>
+
+      <footer>
+        <small>Powered by Jekyll - Theme: <a href="https://github.com/m3xm/hikari-for-Jekyll">hikari</a> - &copy; {{ site.author }}</small>
+      </footer>
+
+    </div>
+    {% comment %} site-wrapper {% endcomment %}
+
+    <script src="{{ site.baseurl }}/js/main.js"></script>
+  </body>
+</html>

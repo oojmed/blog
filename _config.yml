@@ -1,0 +1,35 @@
+# Title of your blog; shows in the header
+name: "Oojmed Blog"
+
+# Description of your content (will only be used on Google Search)
+description: "The blog for Oojmed. Featuring major updates and writeups."
+
+# Your name. Will show in your footer + sidebar
+author: "Oojmed"
+
+url: "https://blog.oojmed.com"
+baseurl: ""
+
+# A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words.
+author-bio: "The blog for Oojmed. A non-profit software development company. This will primarily contain major updates and writeups."
+
+# Social Accounts (mine, as placeholders)
+twitter: oojmedcom
+github: oojmed
+instagram: oojmed
+
+# Other (refer to http://jekyllrb.com/docs/home/ for further details on the below)
+
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-paginate
+
+paginate: 10
+paginate_path: "/page/:num"
+
+# SCSS
+
+sass:
+  sass_dir: _scss
+  style: :compressed
