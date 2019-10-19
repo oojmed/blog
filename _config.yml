@@ -2,7 +2,7 @@
 name: "Oojmed Blog"
 
 # Description of your content (will only be used on Google Search)
-description: "The blog for Oojmed. Featuring major updates and writeups."
+description: "The blog for Oojmed. A non-profit software development organisation. This will primarily contain writeups."
 
 # Your name. Will show in your footer + sidebar
 author: "Oojmed"
@@ -11,9 +11,9 @@ url: "https://blog.oojmed.com"
 baseurl: ""
 
 # A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words.
-author-bio: "The blog for Oojmed. A non-profit software development company. This will primarily contain major updates and writeups."
+author-bio: "The blog for Oojmed. A non-profit software development organisation. This will primarily contain writeups."
 
-# Social Accounts (mine, as placeholders)
+# Social Accounts (ours, as placeholders)
 twitter: oojmedcom
 github: oojmed
 instagram: oojmed
