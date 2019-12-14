@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Welcome"
+date: "2019-07-31 17:07:35 +0100"
+---
+
+Welcome to *Oojmed Blog*! We just changed from our old [WordPress](https://wordpress.com) blog mostly because we prefer simpler and more secure (for obvious reasons) software. We are now happily using [Jekyll](https://jekyllrb.com)! We use the [Hikari](https://github.com/mx3m/hikari-for-jekyll) (hikari-for-jekyll) theme; slightly modified to make it less personal and more like a company.
+
+We'll soon be reposting some articles from our old blog.
+
+Update (31 July 2019):
+We have also further modified the theme to now have a dark mode.
