@@ -63,7 +63,7 @@
 
   ul,
   ol {
-    margin: $spacing-m 0;
+    margin: -$spacing-xs 0 $spacing-m $spacing-m;
     li {
       margin-bottom: $spacing-xs;
     }
