@@ -10,5 +10,6 @@ We've:
  - [Started posting TxtToSL Server changelogs](/txttosl-server/2019-12-14_1/)
  - [Open sourced our blog even more, with our entire setup (posts, icons, and more)](https://github.com/oojmed/hikari-company)
  - [And made a lot of UI updates to Hikari Company (our Jekyll theme, which we use in our blog)](https://github.com/oojmed/hikari-company)
+ - [Changed our blog hosting to Netlify, and soon all our hosting](https://netlify.com)
 
 We've been focusing on improving our UI for the past week or so, so look out for more big UI changes soon.
