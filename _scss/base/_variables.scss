@@ -8,7 +8,7 @@ $fingerprinting-post-color: darken(cadetblue, 10%);
 $bg-color:          #0f0f0f; // background-color
 
 $text-color:        #fff;
-$link-color:        $main-color;
+$link-color:        lighten($main-color, 25%);
 $border-color:      #3f3f3f;
 $smoke-color:       whitesmoke;
 
