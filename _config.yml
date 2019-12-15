@@ -35,3 +35,10 @@ permalink: /:title/
 sass:
   sass_dir: _scss
   style: :compressed
+
+exclude:
+  - README.md
+  - LICENSE
+
+include: 
+  - _redirects
