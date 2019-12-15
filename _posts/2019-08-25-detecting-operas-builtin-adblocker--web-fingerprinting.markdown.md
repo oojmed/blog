@@ -7,6 +7,8 @@ category: "Fingerprinting"
 
 We're starting a new series of posting, detailing our 'adventure' into web fingerprinting. This series will detail how we have discovered how to figure out what browser or adblocker you are using.
 
+<!--more-->
+
 This first post will be detailing how to detect Opera's built-in adblocker. It's quite easy, as it injects a style tag into the head of webpages. Quite a proprietary, as most of the time it's blocked request-side nowadays. At least with browser extensions.
 
 What you need to do, is detect how many style elements there are. If there are more than normal (most likely more than 0), loop through each and see if it's innerText contains common text in Opera's adblocker.

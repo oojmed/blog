@@ -7,6 +7,8 @@ category: "Fingerprinting"
 
 We knew Brave would be hard to fingerprint, as they are [actively against browser fingerprinting](https://github.com/brave/brave-browser/wiki/Fingerprinting-Protection-Mode). However, when we discovered that's Brave's 'Shields', their built-in adblocker has a [unique list of things to block, not block, etc.](https://github.com/brave/adblock-lists), specifically we looked at their [unbreaking list](https://github.com/brave/adblock-lists/blob/master/brave-unbreak.txt). I thought about how we could exploit this.
 
+<!--more-->
+
 First, we gathered some URLs which could be requested via a third party. We
 
 {% highlight js %}

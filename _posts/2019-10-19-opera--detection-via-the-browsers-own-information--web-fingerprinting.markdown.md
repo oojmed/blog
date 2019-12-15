@@ -7,6 +7,8 @@ category: "Fingerprinting"
 
 After a very long time, our adventure / series of writeups in web fingerprinting is finally continuing. Today, we will be visiting Opera again, using an 'exploit' we (we believe we're the first ones to find it, but we may be wrong) discovered. The exploit allows fingerprinting / detection of the browser, Opera. This is because Opera has a problem / exploit / vulnerability / flaw, whatever you want to call it. Normally browser's will block pages from making requests to the browser's own pages (eg. `chrome://version/`, `opera://about`). But Opera doesn't.
 
+<!--more-->
+
 We can exploit this in a simple process:
 1. Create an iframe
 2. Make the source `opera://about`

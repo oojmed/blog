@@ -6,6 +6,8 @@ date: "2019-05-21 19:10:47 +0100"
 
 Recently we’ve been working on my chat, and we’ve recently added a dark mode, plus a changer. This is how we created it.
 
+<!--more-->
+
 First, you have a small section of HTML which creates two icons, and a container for them.
 
 {% highlight html %}
