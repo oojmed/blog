@@ -6,7 +6,7 @@
   <head>
       {% if page.path contains '_posts' %}
       <title>{{ site.name }} - {{ page.title }}</title>
-      <meta name="description" content="{{ post.content | strip_html | truncatewords:100 }}">
+      <meta name="description" content="{{ page.excerpt | strip_html }}">
       {% else %}
       <title>{{ site.name }}</title>
       <meta name="description" content="{{ site.description }}">
