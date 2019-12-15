@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Opera | Exploiting the browser's own pages | Web Fingerprinting"
+title: "Opera: Exploiting the browser's own pages"
 date: "2019-10-19 10:20:00 +0100"
+category: "Fingerprinting"
 ---
 
 After a very long time, our adventure / series of writeups in web fingerprinting is finally continuing. Today, we will be visiting Opera again, using an 'exploit' we (we believe we're the first ones to find it, but we may be wrong) discovered. The exploit allows fingerprinting / detection of the browser, Opera. This is because Opera has a problem / exploit / vulnerability / flaw, whatever you want to call it. Normally browser's will block pages from making requests to the browser's own pages (eg. `chrome://version/`, `opera://about`). But Opera doesn't.

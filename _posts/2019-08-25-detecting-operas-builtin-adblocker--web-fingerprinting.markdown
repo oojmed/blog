@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Opera | Detecting Opera's built-in adblocker | Web Fingerprinting"
+title: "Opera: Detecting Opera's built-in adblocker"
 date: "2019-08-25 16:50:21 +0100"
+category: "Fingerprinting"
 ---
 
 We're starting a new series of posting, detailing our 'adventure' into web fingerprinting. This series will detail how we have discovered how to figure out what browser or adblocker you are using.

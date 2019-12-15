@@ -8,12 +8,15 @@ title: Homepage
     {% for post in paginator.posts %}
     <li itemscope itemtype="http://schema.org/BlogPosting">
       <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">
-        <div class="p-wrap">
+        <div class="p-wrap category-{{post.category}}">
           <article class="inner">
-            <time datetime="{{ post.date | date_to_xmlschema }}"
-                itemprop="datePublished">
-              {{ post.date | date_to_string }}
-            </time>
+            <div class="meta">
+              <time datetime="{{ post.date | date_to_xmlschema }}"
+                  itemprop="datePublished">
+                {{ post.date | date_to_string }}
+              </time>
+              <div class="category">{{post.category}}</div>
+            </div>
             <p itemprop="name headline">{{ post.title }}</p>
           </article>
         </div>

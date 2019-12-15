@@ -9,50 +9,70 @@
       border-top: 1px solid darken($main-color, 6%);
     }
 
+    position: relative;
+
     .p-wrap {
+      &.category-TxtToSL {
+        background: $txttosl-post-color;
+      }
+      &.category-Fingerprinting {
+        background: $fingerprinting-post-color;
+      }
+
       padding: $spacing-ml $spacing-m;
       background: $main-color;
       transition: all .15s ease-in;
+
       &:active {
-        background: darken($main-color, 3%);
-      }
-      &:hover {
-        background: lighten($main-color, 3%);
-        .inner {
-          -webkit-transform: translateX($spacing-s);
-          -ms-transform: translateX($spacing-s);
-          transform: translateX($spacing-s);
-          &::after {
-            content:'\2192';
-            margin-left: $spacing-xs;
-            @media (max-width: 942px) {
-              content: none;
-              margin: 0;
-            }
-          }
+        background: darken($main-color, 5%);
+
+        &.category-TxtToSL {
+          background: darken($txttosl-post-color, 5%);
+        }
+        &.category-Fingerprinting {
+          background: darken($fingerprinting-post-color, 5%);
         }
       }
+      &:hover {
+        background: lighten($main-color, 5%);
+
+        &.category-TxtToSL {
+          background: lighten($txttosl-post-color, 5%);
+        }
+        &.category-Fingerprinting {
+          background: lighten($fingerprinting-post-color, 5%);
+        }
+      }
+
       @media (max-width: 942px) {
         padding: $spacing-m $spacing-m;
       }
       p {
         display: inline;
+        padding-left: 15%;
         margin: $spacing-xs 0 0;
+        transition: all .15s ease-in;
       }
       .inner {
         transition: all .15s ease-in;
+        text-align: center;
       }
     } // end .p-wrap
 
-    time {
-      color: darken($main-color, 40%);
+    .meta {
+      color: darken($text-color, 5%);
       display: inline-block;
-      padding-right: $spacing-s;
-      width: 155px;
       @media (max-width: 942px) {
         display: block;
         width: auto;
       }
+
+      position: absolute;
+      left: $spacing-s;
+      top: 50%;
+      transform: translateY(-50%);
+
+      float: left;
     }
 
     a {

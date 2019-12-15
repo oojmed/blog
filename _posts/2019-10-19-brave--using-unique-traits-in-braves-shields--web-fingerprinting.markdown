@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Brave | Using unique traits in Brave's 'Shields' | Web Fingerprinting"
+title: "Brave: Using unique traits in Brave's 'Shields'"
 date: "2019-10-19 10:30:00 +0100"
+category: "Fingerprinting"
 ---
 
 We knew Brave would be hard to fingerprint, as they are [actively against browser fingerprinting](https://github.com/brave/brave-browser/wiki/Fingerprinting-Protection-Mode). However, when we discovered that's Brave's 'Shields', their built-in adblocker has a [unique list of things to block, not block, etc.](https://github.com/brave/adblock-lists), specifically we looked at their [unbreaking list](https://github.com/brave/adblock-lists/blob/master/brave-unbreak.txt). I thought about how we could exploit this.
