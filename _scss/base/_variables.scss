@@ -1,9 +1,9 @@
 // Colors
 
-$main-color:        purple;  // change this color for further customization
+$main-color:        lighten(#0f0f0f, 15%);  // change this color for further customization
                                       // I like http://colours.neilorangepeel.com/! Making colors semantic too ;)
-$txttosl-post-color: darken(crimson, 10%);
-$fingerprinting-post-color: darken(cadetblue, 10%);
+$txttosl-post-color: lighten(#0f0f0f, 30%);
+$fingerprinting-post-color: lighten(#0f0f0f, 10%);
 
 $bg-color:          #0f0f0f; // background-color
 

@@ -12,9 +12,15 @@
 
 			<meta name="og:type" content="article">
 			<meta name="twitter:card" content="summary">
-			
-			<meta name="og:title" content="{{ page.category }}: {{ page.title }}">
-			<meta name="twitter:title" content="{{ page.category }}: {{ page.title }}">
+      
+      {% if page.category == nil %}
+			<meta name="og:title" content="{{ page.title }}">
+      <meta name="twitter:title" content="{{ page.title }}">
+      {% else %}
+      <meta name="og:title" content="{{ page.category }}: {{ page.title }}">
+      <meta name="twitter:title" content="{{ page.category }}: {{ page.title }}">
+      {% endif %}
+
 			{% else %}
       <title>{{ site.name }}</title>
 			<meta name="description" content="{{ site.description }}">
