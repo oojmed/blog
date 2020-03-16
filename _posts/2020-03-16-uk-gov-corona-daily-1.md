@@ -41,7 +41,7 @@ Strong advice to not do public spaces but no enforcement, but if necessary will 
 ### What about care homes?
 Avoid visitors and contact (again).
 
-### WHO say to test but you're not?
+### WHO says to test everyone no matter symptoms but you're not?
 3 levels of testing:
  - Intensive care testing
  - Hospitals
