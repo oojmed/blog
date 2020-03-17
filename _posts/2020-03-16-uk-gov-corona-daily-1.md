@@ -2,7 +2,7 @@
 layout: post
 title: "Summary of UK Gov's 1st Daily Corona Meeting"
 date: "2020-03-16 19:28:00 +0000"
-category: "Journalism"
+category: "COVID-19"
 ---
 
 [Archive of the press conference](https://www.youtube.com/watch?v=w7LCz7oKkJI) provided by The Guardian.
