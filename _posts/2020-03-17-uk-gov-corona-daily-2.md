@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LIVE: Summary of UK Gov's 2nd Daily Corona Meeting"
+title: "Summary of UK Gov's 2nd Daily Corona Meeting"
 date: "2020-03-17 17:25:00 +0000"
 category: "COVID-19"
 ---
@@ -25,3 +25,8 @@ category: "COVID-19"
  - 'I want to reassure every British citizen: this government will give you all the tools you need to get through this'
  - 'We will support jobs, we will support incomes, we will support businesses, and we will help you protect your loved ones'
  - 'We will do whatever it takes'
+ - 'The government will stand behind businesses small and large; I can announce today an unprecedented package of government-backed and guaranteed loans to support business to get through this'
+ - 'Today I'm making avaliable an initial 330 billion pounds (£330bn) equivalent to 15 percent of our GDP'
+ - 'That means any business who needs access to cash to pay their rent, salaries, suppliers or purchase stock will be able to access a government-backed loan or credit on attractive terms'
+ - 'If demand is greater than the initial 330 billion pounds I'm making avaliable today, I will go further and provide as much capacity as required. I said whatever it takes, and I meant it.'
+ - 'Delivered through two main schemes'
