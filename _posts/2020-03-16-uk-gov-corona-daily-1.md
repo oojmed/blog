@@ -51,7 +51,8 @@ Generally:
  - No longer care about geography
  - Planning to scale testing
  - Wanting a test to see if they've had it perviously so can see even if no symptoms
- - Other countries are going further with lockdown what u gonna do?
+
+### Other countries are going further with lockdown what are you going to do?
  - Other countries are in other stages we care about timing
  - Not going to do anything else atm
  - Keeping all measures under review
