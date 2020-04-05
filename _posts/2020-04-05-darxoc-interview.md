@@ -87,7 +87,7 @@ Hurry though.
 ## Alright. "Where did your homophobia stem from? Was there a parental figure or a piece of media that spurred on this belief system?"
 No, it was me being fed up with the agenda that coexists within school. The GSA. I believe GSA is an acronym for the “Gay, Straight Alliance”, or whatever.
 
-## Thanks for the answer. Next: How does their sexuality directly impact your everyday life?
+## Thanks for the answer. Next: "How does their sexuality directly impact your everyday life?"
 And yet again, school. I see people flaunting their sexual orientation within school. Like, during June they try to gain excess (rather unneeded) attention by waving their flags at school. I’d rather not hear kids running around and parading something so minuscule and unneeded.
 
 ## Alright. "Ask them why do they feel the need to be so Devicive on the internet, also ask them how it feels to see lgtbq rights groups winning everyday."
