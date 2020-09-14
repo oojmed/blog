@@ -12,7 +12,7 @@
     position: relative;
 
     .p-wrap {
-      &.category-TxtToSL {
+      &.category-TxtToSL, &.category-Oojmed {
         background: $txttosl-post-color;
       }
       &.category-Fingerprinting {
